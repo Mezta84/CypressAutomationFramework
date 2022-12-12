@@ -17,7 +17,7 @@ Feature: Webdriver university LoginPage
         And I click on the Login button
         Then I should be presented with the following message validation failed
         
-        @login
+        @Login
         Scenario Outline: Webdriver university LoginPage
         Given I access Webdriver university LoginPage
         When I enter a userName <username>

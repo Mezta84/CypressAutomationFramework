@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "allCucumberTestsHeadless":"npx cypress run --spec '**/*.feature' --browser chrome --headless",
-    "cucumberTest@RegressionHeaded":"npx cypress run --spec '**/*.feature' -e TAGS='@Regression' --browser chrome --headed"
+    "cucumberTest@RegressionHeaded":"npx cypress run --spec '**/*.feature' -e TAGS='@Regression' --browser chrome --headed",
+    "cucumberTest@LoginHeadless":"npx cypress run --spec '**/*.feature' -e TAGS='@Login' --browser chrome --headless"
   },
   "author": "Tarik Mezgouria",
   "license": "ISC",
