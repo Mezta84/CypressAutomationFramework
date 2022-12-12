@@ -4,3 +4,4 @@ screeshots
 videos 
 mochawesome-report
 package-lock.json
+.gitignore
